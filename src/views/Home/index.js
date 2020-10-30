@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react'
-import api from '../../service/api'
+import React from 'react'
 import './styles.scss'
 
 import Trail from '../../components/Trail'
 
 function Home() {
 
-    return (
+  
+  return (
       <>
         <div class="container">
           {
-            Trail('games')
+            Trail('Gta v')
           }
         </div>
       </>

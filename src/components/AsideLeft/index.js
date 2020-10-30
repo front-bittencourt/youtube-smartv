@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 import './styles.scss'
 import logo from '../../assets/logo.png';
@@ -12,9 +12,6 @@ function AsideLeft() {
                 <img src={logo} />
             </div>
             <ul className="AsideLeft__menu">
-                <li className="AsideLeft__menu-item">
-                    <input type="text" placeholder="Pesquisar"/>
-                </li>
                 <li className="AsideLeft__menu-item">
                     <a href="www.google.com.br">Home</a>
                 </li>

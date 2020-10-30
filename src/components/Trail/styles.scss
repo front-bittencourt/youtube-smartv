@@ -1,8 +1,38 @@
 .trail {
+    display: block;
+    max-width: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    border-bottom: 1px dashed #000;
+
+    &__title {
+        font-size: 28px;
+        font-weight: bold;
+        margin: 25px;
+    }
+
     &__container {
-        max-width: 150px;
+        width: 320px;
+        margin-right: 15px;
+
         &--picture {
-            width: 100%;
+            width: 320px;
+
+            img {
+                width: 100%;
+            }
         }
+
+        &--title {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        &--title, &--description {
+            font-size: 14px;
+            height: 45px;
+            overflow: hidden;
+        } 
     }
 }
